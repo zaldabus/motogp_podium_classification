@@ -1,7 +1,7 @@
-### Project Title
-MotoGP Podium Classification
+### MotoGP Podium Classification
 
 **Author**
+
 Ryan Beckman
 
 #### Executive summary
@@ -58,5 +58,7 @@ Another area that merits follow up would be building a model around championship
 
 ##### Contact and Further Information
 Ryan Beckman
+
 Email: beckman.ryan@gmail.com
+
 [LinkedIn](https://www.linkedin.com/in/beckmanryan/)
