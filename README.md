@@ -42,10 +42,11 @@ After model training is completed I plan to use a graphical representation of a 
 ### Dependencies:
 The easiest way to install Anaconda is from the [online download source](https://www.anaconda.com/download). See the [installation page](https://docs.anaconda.com/free/anaconda/install/index.html) for more details on installation process. After downloading open Anaconda Navigator to download Jupyter Notebook
 
-The dependencies required to run this project are quite particular. In order to simplify the process of setting up an environment to run the project a **requirements.txt** file has been created. The suggested approach to environment setup is to create a new environment using the included file (from project root directory):
+The dependencies required to run this project are quite particular. In order to simplify the process of setting up an environment to run the project a **environment.yml** file has been created. The suggested approach to environment setup is to create a new environment using the included file (from project root directory):
 
 ```bash
-  conda create --name <env> --file requirements.txt
+  conda env create -f environment.yml
+  conda activate motogp
 ```
 
 ### Running Jupyter Notebook
