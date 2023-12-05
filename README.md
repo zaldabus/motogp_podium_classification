@@ -49,12 +49,19 @@ The dependencies required to run this project are quite particular. In order to 
   conda activate motogp
 ```
 
+The setup environment can then be used to create a kernel to run with Jupyter Notebook:
+```bash
+  python -m ipykernel install --user --name=motogp
+```
+
 ### Running Jupyter Notebook
 After installing dependencies, run a new Jupyter Notebook instance from root of project:
 
 ```bash
   jupyter notebook
 ```
+
+From the list of kernels, proceed to use **motogp** to use the kernel that has been setup with the environment.
 
 ## Results
 | **Model**     | **F0.5 Score (Test)** | **Precision Score (Test)** |
